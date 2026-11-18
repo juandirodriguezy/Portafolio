@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Juan Diego Rodríguez Yanquen - Desarrollador de Software Full-Stack (React, Node.js, PostgreSQL, MySQL, Android).">
+    <meta name="author" content="Juan Diego Rodríguez Yanquen">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <title>Juan Diego Rodríguez | Desarrollador de Software Full-Stack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ======================= Barra de Navegación (Sticky Header) ======================= -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo" aria-label="Ir al inicio">
+                <span class="logo-circle">JR</span>
+                <span class="logo-text">Juan Rodríguez<span class="logo-dot">.dev</span></span>
+            </a>
+
+            <!-- Botón menú hamburguesa (Móvil) -->
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Enlaces de navegación -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#cv" class="nav-link">Currículum</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#cv" class="btn btn-sm btn-outline">Descargar CV</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ======================= Sección Hero (Inicio) ======================= -->
+        <section class="hero-section" id="inicio">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span>Disponible para oportunidades laborales</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Hola, soy <span class="text-gradient">Juan Diego Rodríguez</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Desarrollador de Software | Full-Stack &amp; Mobile</h2>
+                    <p class="hero-description">
+                        Estudiante de Tecnología en Desarrollo de Software en la <strong>Universidad de San Buenaventura</strong>. 
+                        Especializado en crear soluciones web robustas con <strong>React</strong>, <strong>Node.js</strong> y bases de datos 
+                        relacionales (<strong>PostgreSQL</strong> y <strong>MySQL</strong>), con formación adicional en <strong>Java</strong> y <strong>Kotlin</strong>.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#proyectos" class="btn btn-primary">Ver Proyectos Destacados</a>
+                        <a href="#contacto" class="btn btn-secondary">Hablemos</a>
+                    </div>
+                    <div class="hero-social">
+                        <span class="social-label">Encuéntrame en:</span>
+                        <div class="social-links">
+                            <a href="https://github.com/juandirodriguezy" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/juan-rodriguez-3b2589450" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            </a>
+                            <a href="mailto:juandrodriguezy057@gmail.com" class="social-btn" title="Correo">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            </a>
+                            <a href="https://wa.me/573106690137" target="_blank" rel="noopener noreferrer" class="social-btn" title="WhatsApp">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-glow"></div>
+                    <div class="hero-image-container">
+                        <img src="img/Foto Perfil.jpg" alt="Fotografía de Juan Diego Rodríguez" class="hero-avatar">
+                    </div>
+                    <!-- Badges flotantes decorativos -->
+                    <div class="floating-badge badge-top">
+                        <span class="floating-icon">⚛️</span>
+                        <span>React 18 &bull; Vite</span>
+                    </div>
+                    <div class="floating-badge badge-bottom">
+                        <span class="floating-icon">🐘</span>
+                        <span>PostgreSQL &bull; Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= Sección Sobre Mí ======================= -->
+        <section class="section sobre-mi-section" id="sobre-mi">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 01. Perfil</span>
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="sobre-mi-grid">
+                    <div class="sobre-mi-text">
+                        <p class="lead-text">
+                            Soy un desarrollador de software enfocado en construir herramientas web útiles, seguras y de alto impacto, combinando el diseño moderno de interfaces con arquitecturas de backend sólidas.
+                        </p>
+                        <p>
+                            Actualmente curso la <strong>Tecnología en Desarrollo de Software</strong> en la <strong>Universidad de San Buenaventura</strong> (Bogotá D.C., Colombia). Mi trayectoria práctica se ha centrado en el diseño y despliegue de APIs RESTful modulares, protección de datos mediante <strong>JSON Web Tokens (JWT)</strong> y consultas parametrizadas para evitar inyecciones SQL en bases de datos relacionales.
+                        </p>
+                        <p>
+                            Me apasiona el código limpio, la documentación clara y el aprendizaje continuo. Busco integrarme a equipos de tecnología donde pueda aportar proactividad, pensamiento analítico y soluciones de valor.
+                        </p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Enfoque en Código Limpio</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">11+</span>
+                            <span class="stat-label">Endpoints REST Desarrollados</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">SQL</span>
+                            <span class="stat-label">PostgreSQL &bull; MySQL</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">USB</span>
+                            <span class="stat-label">U. San Buenaventura (2024-2026)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= Sección Habilidades Técnicas ======================= -->
+        <section class="section habilidades-section" id="habilidades">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 02. Conocimientos</span>
+                    <h2 class="section-title">Habilidades Técnicas</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Tarjeta 1: Lenguajes -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon">💻</div>
+                            <h3>Lenguajes</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>JavaScript (ES6+)</li>
+                            <li>Java</li>
+                            <li>Kotlin</li>
+                            <li>SQL</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tarjeta 2: Frontend -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon">🎨</div>
+                            <h3>Frontend</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>React 18</li>
+                            <li>Vite</li>
+                            <li>React Router DOM 6</li>
+                            <li>Bootstrap 5</li>
+                            <li>Responsive Design</li>
+                            <li>CSS Grid &amp; Flexbox</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tarjeta 3: Backend & APIs -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon">⚙️</div>
+                            <h3>Backend &amp; Seguridad</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>REST APIs</li>
+                            <li>JWT (Tokens)</li>
+                            <li>Bcrypt (Hashing)</li>
+                            <li>Multer (Archivos)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tarjeta 4: Bases de Datos -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon">🗄️</div>
+                            <h3>Bases de Datos</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>PostgreSQL</li>
+                            <li>MySQL</li>
+                            <li>Consultas Parametrizadas</li>
+                            <li>Modelado Relacional</li>
+                            <li>Integridad Referencial</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tarjeta 5: Herramientas & QA -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon">🛠️</div>
+                            <h3>Herramientas &amp; Testing</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Git &amp; GitHub</li>
+                            <li>Postman</li>
+                            <li>Jest</li>
+                            <li>Supertest</li>
+                            <li>DBeaver &bull; pgAdmin</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tarjeta 6: Competencias Blandas -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon">🤝</div>
+                            <h3>Competencias Profesionales</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Trabajo en equipo</li>
+                            <li>Resolución de problemas</li>
+                            <li>Comunicación asertiva</li>
+                            <li>Aprendizaje continuo</li>
+                            <li>Inglés Técnico (Docs &amp; APIs)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= Sección Proyectos Destacados ======================= -->
+        <section class="section proyectos-section" id="proyectos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 03. Portafolio</span>
+                    <h2 class="section-title">Proyectos Destacados</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-wrapper">
+                    <!-- Proyecto Insignia: ALIMOP -->
+                    <article class="featured-project-card">
+                        <div class="project-media">
+                            <div class="project-img-box">
+                                <img src="img/alimop-logo.png" alt="Logotipo de la plataforma ALIMOP" class="project-logo-img">
+                            </div>
+                            <span class="project-badge">Proyecto Destacado Full-Stack</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-cat">Marketplace Web &bull; E-commerce B2B/B2C</span>
+                                <h3 class="project-title">ALIMOP &ndash; Plataforma Marketplace de Alimentos</h3>
+                            </div>
+                            <p class="project-desc">
+                                Solución web integral diseñada para conectar proveedores de alimentos (productores agrícolas, panaderías, carnicerías y restaurantes) con clientes finales. El sistema incorpora clasificación técnica de inocuidad alimentaria, gestión de inventario en tiempo real, carrito de compras persistente y despacho de órdenes.
+                            </p>
+                            <div class="project-highlights">
+                                <h4>Aportes Técnicos Principales:</h4>
+                                <ul>
+                                    <li>Desarrollo de API REST con <strong>Node.js</strong> y <strong>Express</strong> (11+ endpoints con autenticación JWT).</li>
+                                    <li>Base de datos en <strong>PostgreSQL</strong> con connection pooling parametrizado para seguridad estricta.</li>
+                                    <li>Carga multimedia en la nube conectando <strong>Multer</strong> con <strong>ImageKit CDN</strong>.</li>
+                                    <li>Frontend dinámico en <strong>React 18</strong>, <strong>Vite</strong> y Bootstrap 5 con panel administrativo.</li>
+                                    <li>Pruebas unitarias y de integración implementadas con <strong>Jest</strong> y <strong>Supertest</strong>.</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech-stack">
+                                <span>React 18</span>
+                                <span>Vite</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>PostgreSQL</span>
+                                <span>JWT</span>
+                                <span>ImageKit CDN</span>
+                                <span>Jest</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/juandirodriguezy/ALIMOP" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Ver Código en GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta para Próximos Proyectos -->
+                    <div class="upcoming-project-card">
+                        <div class="upcoming-icon">🚀</div>
+                        <h3>Nuevos Proyectos en Desarrollo</h3>
+                        <p>Desarrollando aplicaciones móviles en <strong>Android (Kotlin)</strong> y servicios web adicionales con arquitecturas modernas. Serán publicados próximamente en este espacio.</p>
+                        <a href="https://github.com/juandirodriguezy?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Explorar Repositorios en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= Sección Descarga de Currículums ======================= -->
+        <section class="section cv-section" id="cv">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">// 04. Documentación</span>
+                    <h2 class="section-title">Currículum Vitae</h2>
+                    <p class="section-subtitle">Descarga la versión que mejor se ajuste a tu proceso de selección.</p>
+                    <div class="section-line center"></div>
+                </div>
+
+                <div class="cv-cards-grid">
+                    <!-- Tarjeta Formato ATS -->
+                    <div class="cv-card">
+                        <div class="cv-badge">Recomendado para Portales</div>
+                        <div class="cv-icon">📄</div>
+                        <h3>Hoja de Vida en Formato ATS</h3>
+                        <p class="cv-card-desc">
+                            Estructura lineal, en una sola columna con HTML semántico puro. Diseñada para pasar con 100% de éxito los filtros automáticos de portales de empleo (LinkedIn, Computrabajo, Workday, Lever).
+                        </p>
+                        <div class="cv-actions">
+                            <a href="docs/Hoja de Vida en Formato ATS.pdf" download class="btn btn-primary btn-block">
+                                📥 Descargar PDF (ATS)
+                            </a>
+                            <a href="https://github.com/juandirodriguezy/CV-ATS" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">
+                                👁️ Ver Repositorio en GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta Formato Normal / Visual -->
+                    <div class="cv-card">
+                        <div class="cv-badge visual">Diseño Visual / Humano</div>
+                        <div class="cv-icon">💼</div>
+                        <h3>Hoja de Vida Visual (Responsive)</h3>
+                        <p class="cv-card-desc">
+                            Maquetación moderna en dos columnas con barra lateral, fotografía de perfil y paleta de colores profesional. Ideal para entrevistas directas o presentación personal ante líderes técnicos.
+                        </p>
+                        <div class="cv-actions">
+                            <a href="docs/Hoja de Vida (Normal).pdf" download class="btn btn-primary btn-block">
+                                📥 Descargar PDF (Visual)
+                            </a>
+                            <a href="https://github.com/juandirodriguezy/CV-WEB" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">
+                                👁️ Ver Repositorio en GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= Sección Contacto ======================= -->
+        <section class="section contacto-section" id="contacto">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">// 05. Comunicación</span>
+                    <h2 class="section-title">Conectemos</h2>
+                    <p class="section-subtitle">¿Tienes una oportunidad laboral, proyecto o propuesta? Estoy disponible para conversar.</p>
+                    <div class="section-line center"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Opción 1: Correo con Copiado Rápido -->
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Correo Electrónico</h3>
+                        <p class="contact-value">juandrodriguezy057@gmail.com</p>
+                        <div class="contact-actions">
+                            <button class="btn btn-sm btn-primary copy-btn" data-copy="juandrodriguezy057@gmail.com">
+                                📋 Copiar Correo
+                            </button>
+                            <a href="mailto:juandrodriguezy057@gmail.com" class="btn btn-sm btn-secondary">
+                                Redactar Email
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Opción 2: WhatsApp / Teléfono -->
+                    <div class="contact-card">
+                        <div class="contact-icon">💬</div>
+                        <h3>WhatsApp / Teléfono</h3>
+                        <p class="contact-value">+57 310 669 0137</p>
+                        <div class="contact-actions">
+                            <a href="https://wa.me/573106690137" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                Enviar WhatsApp
+                            </a>
+                            <a href="tel:+573106690137" class="btn btn-sm btn-secondary">
+                                Llamar
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Opción 3: LinkedIn -->
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <p class="contact-value">in/juan-rodriguez-3b2589450</p>
+                        <div class="contact-actions">
+                            <a href="https://www.linkedin.com/in/juan-rodriguez-3b2589450" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary btn-block">
+                                Ver Perfil Profesional
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Opción 4: GitHub -->
+                    <div class="contact-card">
+                        <div class="contact-icon">💻</div>
+                        <h3>GitHub</h3>
+                        <p class="contact-value">github.com/juandirodriguezy</p>
+                        <div class="contact-actions">
+                            <a href="https://github.com/juandirodriguezy" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary btn-block">
+                                Explorar Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-banner">
+                    <span>📍 <strong>Ubicación:</strong> Bogotá D.C., Colombia | Disponible para modalidades Presencial, Híbrida o 100% Remota</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================= Footer ======================= -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <span class="footer-logo">JR.dev</span>
+                <p>Diseñado y desarrollado por <strong>Juan Diego Rodríguez Yanquen</strong>.</p>
+                <p class="footer-copy">&copy; <span id="currentYear"></span> &bull; Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#cv">Currículum</a>
+                <a href="https://github.com/juandirodriguezy" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/juan-rodriguez-3b2589450" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification de Copiado -->
+    <div class="toast" id="copyToast" role="alert" aria-live="polite">
+        <span>¡Correo copiado al portapapeles con éxito!</span>
+    </div>
+
+    <!-- Scripts JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
