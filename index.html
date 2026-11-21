@@ -261,7 +261,7 @@
                 </div>
 
                 <div class="projects-wrapper">
-                    <!-- Proyecto Insignia: ALIMOP -->
+                    <!-- Proyecto Insignia 1: ALIMOP -->
                     <article class="featured-project-card">
                         <div class="project-media">
                             <div class="project-img-box">
@@ -307,13 +307,51 @@
                         </div>
                     </article>
 
-                    <!-- Tarjeta para Próximos Proyectos -->
-                    <div class="upcoming-project-card">
-                        <div class="upcoming-icon">🚀</div>
-                        <h3>Nuevos Proyectos en Desarrollo</h3>
-                        <p>Desarrollando aplicaciones móviles en <strong>Android (Kotlin)</strong> y servicios web adicionales con arquitecturas modernas. Serán publicados próximamente en este espacio.</p>
-                        <a href="https://github.com/juandirodriguezy?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">Explorar Repositorios en GitHub</a>
-                    </div>
+                    <!-- Proyecto Insignia 2: GymSync -->
+                    <article class="featured-project-card">
+                        <div class="project-media">
+                            <div class="project-img-box">
+                                <img src="img/gymsync-logo.webp" alt="Logotipo de la aplicación GymSync" class="project-logo-img">
+                            </div>
+                            <span class="project-badge" style="border-color: #f59e0b; color: #fbbf24; background-color: rgba(245, 158, 11, 0.15);">App Móvil Android Nativa</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-cat" style="color: #fbbf24;">Android &bull; Firebase &bull; Arquitectura por Eventos</span>
+                                <h3 class="project-title">GymSync &ndash; Aplicación Móvil de Gestión de Gimnasios</h3>
+                            </div>
+                            <p class="project-desc">
+                                Aplicación móvil nativa en <strong>Kotlin</strong> diseñada bajo el patrón arquitectónico <strong>MVVM</strong> para conectar a clientes de gimnasios con la administración. Incorpora sincronización en tiempo real, orquestación de eventos asíncrona, control de asistencias y soporte para Android 15+.
+                            </p>
+                            <div class="project-highlights">
+                                <h4>Aportes Técnicos Principales:</h4>
+                                <ul>
+                                    <li>Arquitectura reactiva con <strong>Kotlin</strong>, <strong>MVVM</strong>, <code>LiveData</code> y <code>SharedFlow</code>.</li>
+                                    <li>Integración con <strong>Cloud Firestore</strong> (listeners en tiempo real) y <strong>Firebase Auth</strong> con verificación de correo obligatoria.</li>
+                                    <li>Pipeline de eventos asíncrono conectando <strong>Retrofit 2</strong>, <strong>n8n</strong> (Docker) y <strong>Make.com</strong> para reservas y notificaciones por Gmail.</li>
+                                    <li>Módulo de Administrador con gestión de clases (CRUD con soft-delete y cancelación en cascada) y asistencias atómicas con <code>WriteBatch</code>.</li>
+                                    <li>Soporte Edge-to-Edge con Window Insets y notificaciones locales de alta prioridad (Android 13+ <code>POST_NOTIFICATIONS</code>).</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech-stack">
+                                <span>Kotlin</span>
+                                <span>Android SDK</span>
+                                <span>MVVM</span>
+                                <span>Cloud Firestore</span>
+                                <span>Firebase Auth</span>
+                                <span>Retrofit 2</span>
+                                <span>n8n (Docker)</span>
+                                <span>Make.com</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/juandirodriguezy/GymSync" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Ver Código en GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>

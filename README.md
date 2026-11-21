@@ -48,6 +48,7 @@ Este portafolio se conecta y complementa directamente con el ecosistema de proye
 | Proyecto / Recurso | Tipo | Descripción Técnica | Repositorio |
 |---|---|---|---|
 | **ALIMOP** | Aplicación Web Full-Stack | Marketplace de alimentos con React 18, Vite, Node.js, Express, PostgreSQL, JWT, ImageKit CDN y pruebas automatizadas con Jest. | [juandirodriguezy/ALIMOP](https://github.com/juandirodriguezy/ALIMOP) |
+| **GymSync** | Aplicación Móvil Android | App nativa en Kotlin con arquitectura MVVM, Cloud Firestore en tiempo real, Firebase Auth, orquestación por eventos con n8n y Make.com. | [juandirodriguezy/GymSync](https://github.com/juandirodriguezy/GymSync) |
 | **CV-ATS** | Hoja de Vida Optimizada | Currículum estructurado en una sola columna con HTML semántico puro, diseñado para superar filtros automáticos de contratación. | [juandirodriguezy/CV-ATS](https://github.com/juandirodriguezy/CV-ATS) |
 | **CV-WEB** | Hoja de Vida Visual | Currículum interactivo con maquetación en dos columnas con CSS Grid, paleta ejecutiva y adaptación responsive. | [juandirodriguezy/CV-WEB](https://github.com/juandirodriguezy/CV-WEB) |
 
